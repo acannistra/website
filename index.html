@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+	    <title>Anthony F. Cannistra</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	    <!-- Loading Bootstrap -->
+	    <link href="css/bootstrap.css" rel="stylesheet">
+
+	    <!-- Loading Flat UI -->
+	    <link href="css/flat-ui.css" rel="stylesheet">
+	    <link rel="shortcut icon" href="images/favicon.ico">
+	    <!-- Loading custom CSS & Fonts -->
+	    <link href="css/custom.css" rel="stylesheet">
+	    <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+	    <!-- Loading jQuery -->
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+        <!-- Loading jQuery UI -->
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+        <!-- Loading page-specific JS -->
+        <script src="js/custom.js"></script>
+
+
+	    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	    <!--[if lt IE 9]>
+	      <script src="js/html5shiv.js"></script>
+	    <![endif]-->
+	 </head>
+	 <body>
+	 	<base target="newWindow" />
+	 	<div id="wrap">
+		 	<div class="container-fluid">
+		 		<div id="top" class="top-banner">
+		 			<div class="cursive" id="name">Anthony F. Cannistra</div>
+		 			<h4>Computer Science & Biology | Tufts University, Class of 2015 </h4>
+
+		 		</div>
+		 		<div class="row-fluid centered menu small">
+		 			<div class="menu-elem span3">	
+		 				<span style="border-bottom: 1px solid #E74C3C ;">about me</span>
+		 			</div>
+		 			<div class="menu-elem span3">
+		 				<span style="border-bottom: 1px solid #E74C3C ;">projects</span>
+		 			</div>
+		 			<div class="menu-elem span3">
+		 				<span style="border-bottom: 1px solid #E74C3C ;">hobbies</span>
+		 			</div>
+		 			<div class="menu-elem span3">
+		 				<span style="border-bottom: 1px solid #E74C3C ;">blog</span>
+		 			</div>
+		 		</div>
+		 		
+		 		<div class="row-fluid centered small">
+		 			<div class="span12 section small">
+		 				About Me
+		 			</div>
+		 					 				<h1><i><small>coming soon...</small></i></h1>
+					</div>
+		 		<div class="row-fluid centered small">
+		 			<div class="span12 section">
+		 			Projects
+		 			</div>
+
+					<div class="row-fluid left">
+						<div class="span4">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DNA_chemical_structure.svg/411px-DNA_chemical_structure.svg.png"></img>
+							<h6><a href="http://commons.wikimedia.org/wiki/User:Madprime">wikipedia: Madeline Price Ball</a></h6>
+						</div>
+						<div class="span8">
+							<h2> COMP167: A Simple <i>De Novo</i> Genome Assembler </h2>
+							<table class="table" id="p1">
+								<tr>
+									<td><b>Language:</b></td>
+									<td>C++</td>
+								</tr>
+								<tr>
+									<td><b>Purpose: </b></td><td>Given two <code>fastq</code> files, each containing reads from a genome fragment, we set out to assemble as much of the original sequence as possible using pairwise overlaps and a <a href="http://en.wikipedia.org/wiki/De_Bruijn_graph">De Brujin</a> <a href="http://www.nature.com/nbt/journal/v29/n11/full/nbt.2023.html">assembly strategy.</a>	</td>
+								</tr>
+								<tr>
+									<td><b>Outcome:</b></td><td>The program was quite fast, due to the De Brujin implementation. Finding overlapping reads was unnecessary, as the graph ensured read overlap as it was built. </td>
+								</tr>
+								<tr>
+									<td><b>Code: </b></td><td>To maintain academic integrity, this code will not be shared</td>
+								</tr>
+								<tr>
+									<td><b>Completed: </b></td><td>Spring 2013</td>
+								</tr>
+
+								</table>
+						</div>
+					</div>
+					<hr></hr>
+					<div class="row-fluid left">
+						<div class="span4">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Dna-SNP.svg/500px-Dna-SNP.svg.png"></img>
+							<h6><a href="http://commons.wikimedia.org/wiki/User:Gringer">wikipedia: David Hall</a>
+						</div>	
+						<div class="span8">
+							<h2> COMP167: SNP Calling Analysis </h2>
+							<table class="table">
+								<tr>
+									<td><b>Language:</b></td><td>Python</td>
+								</tr>
+									<td><b>Purpose:</b></td><td>To analyze the results of a SNP-calling program, in the form of <code>.vcf</code> files, and compute statistics about the data. The data were also compared against a database of known SNPs (dbSNP, csomes 18-21) to find "novel" variants. </td>
+								<tr>
+									<td><b>Outcome:</b></td><td>Determined:
+										<ul>
+											<li>Novel SNPs, passing</li>
+											<li>Novel SNPs, filtered</li>
+											<li>Known SNPs, passing</li>
+											<li>Known SNPs, filtered</li>	
+											<li>Ti/Tv ratios for the above sets</li>
+											<li>% passing SNPs that are known</	li>
+										</ul>
+									Among other statistics.
+									</td>
+								</tr>
+									<td><b>Code</b></td><td>To maintain the academic integrity, this code will not be shared.</td>
+								<tr>
+								</tr>
+								<tr>
+									<td><b>Completed:</b></td><td>Spring 2013</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<hr></hr>
+					<div class="row-fluid left">
+						<div class="span4">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Greek_lc_lamda_thin.svg/500px-Greek_lc_lamda_thin.svg.png"></img>
+							<h6>public domain</h6>
+						</div>
+						<div class="span8">
+							<h2> COMP105: Functional Programming in ML</h2>
+							<table class="table" id="p1">
+								<tr>
+									<td><b>Language: </b></td>
+									<td> Standard ML</td>
+								</tr>
+								<tr>
+									<td><b>Purpose:</b></td><td> To explore functional programming paradigms in the ML programming language.</td>
+								</tr>
+								<tr>
+									<td><b>Outcome: </b></td><td>Produced the following functions, written in ML (the "easy" part):
+										<ul>
+											<li> Compound: <code>('a * 'a -> 'a) -> int -> 'a -> 'a </code> </li>
+											<li> Exp (curried): <code>int -> int -> int</code> </li>
+											<li> Fibonacci without <code>if</code></li>
+											<li> Reverse (a list) with <code>foldl</code> or <code>foldr</code></li>
+											<li> Zip: <code>'a list * 'b list -> ('a * 'b) list</code> </li>
+											<li> Unzip: <code> ('a * 'b) list -> 'a list * 'b list</code>
+											<li> Pairfoldr: <code>('a * 'b * 'c -> 'c) -> 'c -> 'a list * 'b list -> 'c</code></li>
+										</ul>
+									And implemented a series of <i>algebraic data types</i>:
+										<ul>
+											<li>A Binary Search Tree</li>
+											<li>Polymorphic Sets</li>
+											<li>Sequence with constant-time append</li>
+											<li>A list with finger (an immutable and persistent alternative to linked lists)</li>
+										</ul>
+									Finally, we altered the interpreter for SML to improve the efficiency of <code>lambda</code> evaluation by only storing variables free in the <code>lambda</code> expression.
+									</td>
+								</tr>
+								<tr>
+									<td><b>Code: </b></td><td>To maintain academic integrity, this code will not be shared</td>
+								</tr>
+								<tr>
+									<td><b>Completed: </b></td><td>Spring 2013</td>
+								</tr>
+
+								</table>
+						</div>
+					</div>
+						
+					<hr>
+					<div class="row-fluid left">
+						<div class="span4">
+							<img src="http://placehold.it/300x500">
+						</div>
+						<div class="span8">
+							<h2>COMP105: Standard ML Type Inference</h2>
+							<table class="table">
+								<tr>
+									<td><b>Language:</b></td><td>Standard ML</td>
+								</tr>
+									<td><b>Purpose:</b></td><td>To add a SML-like type inference system to a "micro-ML" (type-free) interpreter</td>
+								<tr>
+									<td><p><b>Outcome:</b></td><td>This project was completed by using a <b>constraint-solving</b> inference algorithm, where type expressions are distilled into <b>type constraints</b> (similar in style to a CNF boolean solver), and solved. <p>
+									<p>In short, we were able to take a non-typed language and convert it to a strictly typed one via the addition of a type inference system. </p>
+									</td>
+								</tr>
+									<td><b>Code</b></td><td>To maintain the academic integrity, this code will not be shared.</td>
+								<tr>
+								</tr>
+								<tr>
+									<td><b>Completed:</b></td><td>Spring 2013</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="span12">
+							<a href="#top" class="btn btn-info pull-right">TOP</a>
+						</div>
+					</div>
+		 		</div>
+
+		 		<!-- *** HOBBIES *** -->
+		 		
+		 		<div class="row-fluid centered small">
+		 			<div class="span12 section">
+		 				Hobbies
+		 			</div>
+		 			<!-- *** MENU *** -->
+		 			<div class="row-fluid">
+		 				<div class="span4 menu-elem">
+		 					hiking
+		 				</div>
+		 				<div class="span4 menu-elem" style="opacity: .5;">
+		 					photography (coming soon)
+		 				</div>
+		 				<div class="span4 menu-elem" style="opacity: 0.5;">
+		 					reading (coming soon)
+		 				</div>
+				    </div>
+
+				    <!-- *** HIKING HEADER *** -->
+
+		 			<div id="hiking" class="page-header"> 
+							<h1>Hiking <small>and other outdoor exploratory adventures</small></h1>	
+					</div>
+					 <!-- *** HIKING CONTENT *** -->
+					<div class="row-fluid">
+						<div class="span12">
+							<blockquote>
+								<p>“Climb the mountains and get their good tidings. Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.”</p><small>John Muir</small>
+							</blockquote>
+						</div>
+					<div>
+					<div class="row-fluid">
+						<div class="span6" style="text-align: justify">
+							<h2> I like the outdoors. </h2>
+							<h4>I think hiking and exploring are really good ways to get outside, away from the stresses of work, [sub]urban living, to reconnect with nature. </h4>
+						</div>
+						<div class="span6" style="text-align: justify">
+							<h2> Hiking with Tufts. </h2>
+							<h4>One of the perks of being a Tufts student is the Tufts Mountain Club Lodge (or Loj, in TMC parlance). Located in <a href="http://goo.gl/maps/uK30j">North Woodstock, NH</a>, just a couple hours north of campus, it offers a great home-base for fall, winter, and spring outdoor exploring.</h4>
+						</div>
+					</div>
+							
+
+					<div class="row-fluid centered">
+						<div class="span12">
+							<iframe style="width: 100%; height: 600px" src="http://mapsengine.google.com/map/view?mid=zqbSmpMZ1Gg4.kUzEgdAgzbr4"></iframe>
+						</div>
+					</div>
+						<div class="row-fluid centered ">
+							<div class="span4 centered">
+								<img src="http://www.eecs.tufts.edu/~acanni01/img/hobbies_pine.jpg">
+								<h6>Pinecones in Franconia Notch State Park.</h6>
+							</div>
+							<div class="span4">
+								<img src="http://www.eecs.tufts.edu/~acanni01/img/hobbies_mountain.jpg">
+								<h6>The White Mountains</h6>
+							</div>
+							<div class="span4 ">
+								<img src="http://www.eecs.tufts.edu/~acanni01/img/hobbies_loj.jpg">
+								<h6>The Tufts Loj at breakfast.</h6>
+							</div>
+							<!--<div class="span8 ">
+							<img src="https://sphotos-b.xx.fbcdn.net/hphotos-snc7/420558_10150671270668060_1617937400_n.jpg"></img> 
+							</div>-->
+						</div>
+						
+								<!-- <div class="span4" style="text-align: justify;"	> 
+									<h2>I've hiked...<small> (click for maps) </small></h2>
+
+										<div class="span12" style="margin-bottom: 10px">
+											<a href="http://www.cannonmt.com/franconia-notch.pdf" class="btn btn-large btn-block btn-info">Cannon Mountain</a>
+										</div>
+
+										<div class="span12" style="margin-bottom: 10px">
+											<a href="http://home.earthlink.net/~ellozy/lonesome-lake-hut.html" class="btn btn-large btn-block btn-info">Lonesome Lake</a>
+										</div>
+
+										<div style="margin-bottom: 10px" class="span12">
+											<a href="http://www.backpacker.com/december_1997_destinations_new_hampshire_kinsman_ridge_trail/destinations/793" class="btn btn-large btn-block btn-info">Kinsman Ridge</a>
+										</div>
+
+										<div class="span12" style="margin-bottom: 10px">
+											<a href="http://www.mass.gov/dcr/parks/trails/blue.pdf" class="btn btn-large btn-block btn-info"	> Many Great Blue Hills trails...</a>
+										</div>	
+									</div> -->
+								
+								<!-- <light>Next on my list is an overnight hike somewhere, with some of my more knowledgeable friends. I've found quite a lot of really smart people who have a wealth of knowledge about hiking, camping, and exploring. The Tufts Mountain Club is a great resource, and it definitely plays a crucial role in getting me outside.</light> -->
+							</div>
+						</div>	
+		 		</div>
+
+		 		<div id="push"></div>
+		 		<div id="footer">
+		 			<div class="container-fluid">
+		 				<div class="row-fluid centered small">
+	 						<div class="span6" style="text-align:left">
+	 							<h4>© Tony Cannistra, 2013</h4>
+	 						</div>
+	 						<div class="span6" style="text-align:right">
+	 							<div class="row-fluid">
+	 								<div class="span12 pull-right">
+	 									<a href="http://www.facebook.com/tony.cannistra"><img src="images/social/facebook.png"></img></a>
+	 									<a href="http://www.linkedin.com/in/tonycannistra"><img src="images/social/linkedin.png"></img></a>
+	 									<a href="http://blog.anthonycannistra.com"><img src="images/social/tumblr.png"></img></a>
+	 									<a href="https://plus.google.com/u/0/111990921812167421571/posts"><img src="images/social/gplus2.png"></img></a>
+	 									<a href="http://www.github.com/acannistra"><img src="images/social/github.png"></img></a>
+	 								</div>
+	 								
+	 							</div>
+	 						</div>
+
+		 			</div>
+		 		</div>
+		 	</div>
+
+
+		    <script src="js/jquery-1.8.2.min.js"></script>
+		    <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+		    <script src="js/jquery.dropkick-1.0.0.js"></script>
+		    <script src="js/custom_checkbox_and_radio.js"></script>
+		    <script src="js/custom_radio.js"></script>
+		    <script src="js/jquery.tagsinput.js"></script>
+		    <script src="js/bootstrap-tooltip.js"></script>
+		    <script src="js/jquery.placeholder.js"></script>
+		    <script src="http://vjs.zencdn.net/c/video.js"></script>
+		    <script src="js/application.js"></script>
+		    <!--[if lt IE 8]>
+		      <script src="js/icon-font-ie7.js"></script>
+		      <script src="js/icon-font-ie7-24.js"></script>
+		    <![endif]-->
+		</div>
+	 </body>
+</html>

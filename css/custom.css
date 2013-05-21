@@ -1,0 +1,97 @@
+.top-banner {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	top: 0px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+.cursive {
+	font-family: 'Yesteryear', cursive;
+	font-size: 70px;
+}
+
+
+.menu-elem {
+	font-variant: small-caps;
+	font-size: 30px;
+	//color: #E74C3C;
+	//border-bottom: 1px solid #E74C3C ;
+
+}
+
+.centered {
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.section {
+	text-align: center;
+	//color: #E74C3C;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 60px;
+	//background-color: #1ABC9C;
+	background-image: url(http://blogs.bgsu.edu/artc3110georgea/files/2009/09/seashell_texture-other.jpg);
+	//background-image: url(https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/774867_10151462869653060_306251702_o.jpg);
+	background-attachment: fixed;
+	//background-position: center;
+}
+
+.large{	
+	font-size: 40px;
+}
+
+.menu {
+	width: 95%;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.small {
+	width: 75%;
+}
+
+.left {
+	text-align: left;
+}
+
+html,
+body {
+   height: 100%;
+   /* The html and body elements cannot have any padding or margin. */
+ }
+
+ /* Wrapper for page content to push down footer */
+ #wrap {
+   min-height: 100%;
+   height: auto !important;
+   height: 100%;
+   /* Negative indent footer by it's height */
+   margin: 0 auto -60px;
+ }
+
+ /* Set the fixed height of the footer here */
+ #push,
+ #footer {
+   height: 40px;
+ }
+ #footer {
+ 	padding-top: 20px;
+   //background-color: #C0392B;
+	background-image: url(http://blogs.bgsu.edu/artc3110georgea/files/2009/09/seashell_texture-other.jpg);
+ }
+
+ /* Lastly, apply responsive CSS fixes as necessary */
+ @media (max-width: 767px) {
+   #footer {
+     margin-left: -20px;
+     margin-right: -20px;
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+ }
